@@ -1,2 +1,2 @@
-const s = document.querySelectorAll('[ class$="all-filters-pill-button" ]');
-console.log(s);
+let cur = document.getElementById("hoverable-outlet-company-filter-value");
+console.log(cur);
