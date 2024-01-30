@@ -2,20 +2,23 @@
 	<head>
 		<style>
 			body {
-				align-items: center;
-				height: 500px;
 				width: 700px;
 			}
 			.large-text-input {
 				height: 300px; 
 				width: 100%;
 			}
+			.container > * {
+				width: 100%;
+			}
 		</style>
 	</head>
 	<body>
-	    <h1>Enter the names of companies you would like to block job listings from delimited by new lines.</h1>
-	    <textarea type="text" class="large-text-input" id="company-list"></textarea>
-	    <button type="button" id="save-button">Save!</button>
-	    <script src="save.js"></script>
+		<div class="container">
+			<h1>Enter the names of companies you would like to block job listings from delimited by new lines.</h1>
+			<textarea type="text" class="large-text-input" id="company-list"></textarea>
+			<button type="button" id="save-button">Save!</button>
+			<script src="save.js"></script>
+		</div>
 	</body>
 </html>
